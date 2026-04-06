@@ -6,3 +6,5 @@ descripción de los objetivos de control (funcionamiento esperado del sistema).
 
 + Boceto en PDF (dibujado a mano o diseñado con cualquier programa)
 + Lista de sensores y actuadores en PDF
+
+file:auto.png

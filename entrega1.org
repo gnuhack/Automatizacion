@@ -1,0 +1,36 @@
+#+LATEX_HEADER: \usepackage{parskip}
+* Fabricación de llantas
+El proyecto consiste en una fábrica de llantas. Se parte de una chapa
+que se somete a diversos procesos para terminar con una llanta de una
+rueda de un coche como prodcuto final.
+
+
+Se ha pensado implementar la fabricación de dos tipos de llantas
+diferentes, y un control de calidad para descartar llantas defectuosas.
+* Sensores y actuadores
+** Sensores
++ ID: sensor de identficación de tipo de llanta.
++ S1: sensor de llegada a proceso 1 (conformado de chapa)
++ S2: sensor de llegada a proceso 2 (taladrado y mecanizado)
++ S3: sensor de llegad a control de calidad (CC)
+** Actuadores
++ P1: proceso de conformado de chapa
++ P2: proceso de mecanizado
++ CC: control de calidad (retirado de llantas defectuosas)
++ D1: traslado de llanta tipo 1
++ D2: traslado de llanta tipo 2
+
+
+* Boceto
+file:~/Imágenes/auto.png
+La planta a simular consta de dos procesos de fabricación, un proceso
+de control de calidad y un proceso final de selección de llanta.
+
+La chapa se identificaría con el sensor ID, y según el tipo de chapa
+luego iría al destino 1 o al destino 2. Para ello habría que almacenar
+en una cola el tipo de chapa ya que no se disponen de más sensores a
+lo largo de la cadena de montaje.
+
+Posteriormente se tratarán las chapas, y por último se realizará un
+control de calidad que elimine las chapas defectuosas. Tras el
+control, cada chapa irá a su destino correspondiente.
