@@ -8,3 +8,9 @@ descripción de los objetivos de control (funcionamiento esperado del sistema).
 + Lista de sensores y actuadores en PDF
 
 [[file:auto.png]]
+
+* Segunda entrega
+La segunda entrega consiste en una simulación de la planta, con el
+modo manual implementado.
+
+file:entrega2.png
