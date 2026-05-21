@@ -14,3 +14,6 @@ La segunda entrega consiste en una simulación de la planta, con el
 modo manual implementado.
 
 [[file:entrega2.png]]
+* Tercera entrega
+La tercera entrega es el proyecto finalizado con el modo automático y
+los modos de operación. Entrega el 2 de junio.
