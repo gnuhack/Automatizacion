@@ -17,4 +17,5 @@ modo manual implementado.
 * Tercera entrega
 La tercera entrega es el proyecto finalizado con el modo automático y
 los modos de operación. Entrega el 2 de junio.
-file:entrega3.png
+[[file:entrega2.png]]
+
